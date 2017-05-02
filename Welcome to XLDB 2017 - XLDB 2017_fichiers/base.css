@@ -36,10 +36,10 @@ th, td {
     border:none;
     padding: 0.5em;
 }
-p{color:#636363;line-height: 1.3rem;text-align: justify;}
+#content > p{color:#636363;line-height: 1.3rem;text-align: justify;}
+#content > p a {color:#535353;border-bottom: 2px solid rgba(0, 68, 111, 0.5);text-decoration:none;}
+#content > p a:hover{color:white;border-bottom-style:dotted;}
 strong.highlight{color:white;background: none repeat scroll 0 0 rgba(0, 68, 111, 0.8); padding: 0 1px;}
-p a {color:#535353;border-bottom: 2px solid rgba(0, 68, 111, 0.5);text-decoration:none;}
-p a:hover{border-bottom-style:dotted;}
 ul.bullet-xldb {
     border-left: 2px solid rgba(0, 68, 111, 0.8);
     color: #333333;
@@ -65,7 +65,3 @@ blockquote p {
 }
 blockquote{border-left:none;padding:0}
 #nav > ul > li {border:none;background-color:inherit;}
-
-#content > p{color:#636363;line-height: 1.3rem;text-align: justify;}
-#content > p a {color:#535353;border-bottom: 2px solid rgba(0, 68, 111, 0.5);text-decoration:none;}
-#content > p a:hover{color:white;border-bottom-style:dotted;}
